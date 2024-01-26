@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Генератор задач</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="select.js"></script>
+</head>
+<body>
+    <div class="Zagolovok">
+        <img src="Zagolovok.png">
+    </div>
+    <div class="Num">
+        <p>Выберите интересующее вас задание</p>
+        <select id="Result">
+            <option value="0" disabled selected>Номер задания...</option>
+            <option value="1">Задание 1: Количественные параметры информационных объектов</option>
+            <option value="2">Задание 2: Кодирование и декодирование информации</option>
+            <option value="3">Задание 3: Значение логического выражения</option>
+            <option value="4">Задание 4: Формальные описания реальных объектов и процессов</option>
+            <option value="5">Задание 5: Простой линейный алгоритм для формального исполнителя</option>
+            <option value="6">Задание 6: Программа с условным оператором</option>
+            <option value="7">Задание 7: Информационно-комуникационные технологии</option>
+            <option value="8">Задание 8: Запросы для поисковых систем с использованием логических выражений</option>
+            <option value="9">Задание 9: Анализирование информации, представленной ввиде схем</option>
+            <option value="10">Задание 10: Сравнение чисел в различных системах счисления</option>
+        </select>
+        <button type="button" onclick="checkSelect()">Сгенерировать</button>
+        <div id="Number"></div>
+    </div>
+</body>
+</html>
