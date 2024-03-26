@@ -3,6 +3,9 @@ function checkSelect() {
     var selectedValue = select.options[select.selectedIndex].value;
     if (selectedValue === "5") {
         window.location.href = "tasks.html";
+    }
+    else if (selectedValue === "10") {
+        window.location.href = "Task10.html";
     } else {
         if (selectedValue === "0") {
             document.getElementById("Number").innerHTML = "Вы ещё не выбрали номер задания";
@@ -60,19 +63,19 @@ function teest() {
         TextB = CondText[genB];
         gen1 = genB;
         while (gen1 == genB) {
-            if (genB == 1 || genB == 2) {
+            if (genB == 0 || genB == 1) {
                 gen1 = getRandomInt(2, 3);
             } else {
                 gen1 = getRandomInt(0, 1);
             }
             act1 = CondMass[gen1];
             Text1 = CondText[gen1];
-            if (genB >= 3) {
+            if (genB >= 2) {
                 b = getRandomInt(2, 5);
             } else {
                 b = getRandomInt(2, 14);
             }
-            if (gen1 >= 3) {
+            if (gen1 >= 2) {
                 n = getRandomInt(2, 5);
             } else {
                 n = getRandomInt(2, 14);
