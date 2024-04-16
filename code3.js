@@ -200,7 +200,7 @@ function Task2_3(){
     }
     // Atext = "<pre>"+Atext+"</pre>"
     // Btext = "<pre>"+Btext+"</pre>"
-    let TextCond = Net2+"(X"+Atext+A+") <b>И</b> "+Net+"(X"+Btext+B+")"+Rnd;
+    let TextCond = Net2+"(X"+Atext+A+") <b>И</b> "+Net+"(X"+Btext+B+")";
     document.getElementById("Part_3").innerHTML = "Напишите число X, для которого истинно высказывание:";
     document.getElementById("Rezult3").innerHTML = TextCond;
     document.getElementById("Otvet").innerHTML = Otvet
