@@ -6,6 +6,9 @@ function checkSelect() {
     }
     else if (selectedValue === "10") {
         window.location.href = "Task10.html";
+    }
+    else if (selectedValue === "3") {
+        window.location.href = "Task3.html";
     } else {
         if (selectedValue === "0") {
             document.getElementById("Number").innerHTML = "Вы ещё не выбрали номер задания";

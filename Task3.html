@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="tasksStyle.css">
+    <script src="code3.js"></script>
+</head>
+<body onload = "Task1_3()">
+    <h1>Задание 3</h1>
+<div class = test>
+    <div class = condTask>
+        <p id = "Part_3"><p></p>
+        <p id = "Part_1"><p>
+        <p id = "Rezult3"><p>
+        <p id = "Part_2"><p>
+        <select id = "choice">
+            <option value="0" disabled selected>Тип задания...</option>
+            <option value="1">Поиск наибольшего значения переменной</option>
+            <option value="2">Поиск наименьшего значения переменной</option>
+            <option value="3">Поиск неизвестного числа</option>
+        </select>
+        <button type="button" id = "Generate" onclick="Select()">Сгенерировать</button>
+    </div><div class = otvetTask>
+        <div class = end>
+            <input type="text" id="InpOtvet" placeholder="Введите ответ">
+            <button type="button" id = "but" onclick="Answer()">Проверить</button>
+            <details>
+            <summary>Узнать ответ</summary>
+            <p id = "Otvet"></p>
+        </details>
+        <p id = 'YesNo'></p>
+    </div>
+</div>
+</body>
+</html>
