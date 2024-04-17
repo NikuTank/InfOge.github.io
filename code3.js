@@ -205,3 +205,18 @@ function Task2_3(){
     document.getElementById("Rezult3").innerHTML = TextCond;
     document.getElementById("Otvet").innerHTML = Otvet
 }
+function Answer() {
+    if (document.getElementById("InpOtvet").value == document.getElementById('Otvet').innerHTML) {
+        YesNo.textContent = "Верно";
+        YesNo.classList.remove('incorrect');
+        YesNo.classList.add('correct');
+    } else if (document.getElementById("InpOtvet").value == "") {
+        YesNo.textContent = "Необходимо ввести ответ";
+        YesNo.classList.remove('correct');
+        YesNo.classList.add('incorrect');
+    } else {
+        YesNo.textContent = "Неверно";
+        YesNo.classList.remove('correct');
+        YesNo.classList.add('incorrect');
+    }
+}
