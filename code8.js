@@ -20,7 +20,7 @@ function Task_8(){
     // document.getElementById("1t").innerHTML = a;
     // document.getElementById("2t").innerHTML = b;
     // document.getElementById("3t").innerHTML = c;
-    // document.getElementById("2").innerHTML = B;
+    document.getElementById("2").innerHTML = B;
     // document.getElementById("3").innerHTML = C;
     // document.getElementById("Otvet").innerHTML = A;
 }
