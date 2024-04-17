@@ -64,7 +64,7 @@ function Task3_3(){
         B = Otvet - 1
     }
     let TextCond = "(X"+Atext+A+") <b>И</b> (X"+Btext+B+")";
-    document.getElementById("Part_3").innerHTML = "Напишите число X, для которого истинно высказывание:";
+    document.getElementById("Part_3").innerHTML = "Напишите наибольшее целое число x, для которого истинно высказывание:";
     document.getElementById("Rezult3").innerHTML = TextCond;
     document.getElementById("Otvet").innerHTML = Otvet;
 }
@@ -201,7 +201,7 @@ function Task2_3(){
     // Atext = "<pre>"+Atext+"</pre>"
     // Btext = "<pre>"+Btext+"</pre>"
     let TextCond = Net2+"(X"+Atext+A+") <b>И</b> "+Net+"(X"+Btext+B+")";
-    document.getElementById("Part_3").innerHTML = "Напишите число X, для которого истинно высказывание:";
+    document.getElementById("Part_3").innerHTML = "Напишите наименьшее целое число x, для которого истинно высказывание:";
     document.getElementById("Rezult3").innerHTML = TextCond;
     document.getElementById("Otvet").innerHTML = Otvet
 }
