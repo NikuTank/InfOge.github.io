@@ -17,10 +17,11 @@ function Task_8(){
     b = poet[b];
     A = getRandomInt(5,40);
     B = getRandomInt(5,40);
+    let min = 0
     if(A<B){
-         let min = A;
+         min = A;
     }else{
-         let min = B;
+         min = B;
     }
     // let a = "Пушкин";
     // let b = "Толстой";
