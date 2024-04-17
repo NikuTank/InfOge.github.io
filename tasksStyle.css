@@ -2,6 +2,16 @@
     font-family: Cuprum;
     src: url(ofont.ru_Cuprum.ttf);
 }
+.Gl{
+    width: 60%;
+    padding: 8px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    border: 5px solid #c2caf9;
+    background-color: white;
+    font-size: 23px;
 body{
     background-color: #d5dcff;
     margin: 0;
