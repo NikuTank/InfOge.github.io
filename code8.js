@@ -6,6 +6,11 @@ function getRandomInt(min, max) {
 let A = 0
 let B = 0
 function Task_8(){
+    const poet = ["Пушкин", "Чехов", "Толстой", "Лермонтов", "Есенин", "Гоголь", "Маяковский"]
+    let a = Math.floor(Math.random() * poet.length);
+    let b = Math.floor(Math.random() * poet.length);
+    while (a === b) {
+    randomIndex2 = Math.floor(Math.random() * poet.length);
     A = getRandomInt(100,4000);
     B = getRandomInt(100,4000);
     A = getRandomInt(100,4000);
