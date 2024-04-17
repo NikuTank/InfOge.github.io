@@ -17,7 +17,7 @@ function Task_8(){
     b = poet[b];
     A = getRandomInt(5,40);
     B = getRandomInt(5,40);
-    let min = 0
+    let min = 0;
     if(A<B){
          min = A;
     }else{
