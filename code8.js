@@ -28,7 +28,7 @@ function Task_8(){
     A = A * 100;
     B = B * 100;
     min = min * 100;
-    C = getRandomInt(2,(min-2))*100;
+    C = getRandomInt(2,(min-2));
     Condition = "В языке запросов поискового сервера для обозначения логической операции «ИЛИ» используется символ «|», а для обозначения логической операции «И»  — символ «&». <br> В таблице приведены запросы и количество найденных по ним страниц некоторого сегмента сети Интернет."
     document.getElementById("Part_3").innerHTML = Condition;
     document.getElementById("1t").innerHTML = a;
@@ -36,7 +36,7 @@ function Task_8(){
     document.getElementById("3t").innerHTML = c;
     document.getElementById("1").innerHTML = A;
     document.getElementById("2").innerHTML = B;
-    document.getElementById("3").innerHTML = min;
+    document.getElementById("3").innerHTML = C;
     // document.getElementById("Otvet").innerHTML = A;
 }
 function Answer() {
