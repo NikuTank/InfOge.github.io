@@ -36,7 +36,7 @@ function Task_8(){
     document.getElementById("3t").innerHTML = c;
     document.getElementById("1").innerHTML = A;
     document.getElementById("2").innerHTML = B;
-    document.getElementById("3").innerHTML = C;
+    document.getElementById("3").innerHTML = min;
     // document.getElementById("Otvet").innerHTML = A;
 }
 function Answer() {
