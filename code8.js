@@ -17,17 +17,18 @@ function Task_8(){
     b = poet[b];
     A = getRandomInt(5,40);
     B = getRandomInt(5,40);
-    // if(A<B){
-    //     let min = A;
-    // }else{
-    //     let min = B;
-    // }
+    if(A<B){
+         let min = A;
+    }else{
+         let min = B;
+    }
     // let a = "Пушкин";
     // let b = "Толстой";
     let c = a+"|"+b;
-    C = getRandomInt(2,(A-1))*100;
     A = A * 100;
-    // min = min * 100;
+    B = B * 100;
+    min = min * 100;
+    C = getRandomInt(2,(min-2))*100;
     Condition = "В языке запросов поискового сервера для обозначения логической операции «ИЛИ» используется символ «|», а для обозначения логической операции «И»  — символ «&». <br> В таблице приведены запросы и количество найденных по ним страниц некоторого сегмента сети Интернет."
     document.getElementById("Part_3").innerHTML = Condition;
     document.getElementById("1t").innerHTML = a;
