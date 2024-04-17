@@ -13,6 +13,8 @@ function Task_8(){
     // // let c = a+"|"+b;
     while (a === b) {
         b = Math.floor(Math.random() * poet.length);}
+    a = poet[a];
+    b = poet[b];
     A = getRandomInt(5,40);
     B = getRandomInt(5,40);
     // if(A<B){
