@@ -24,6 +24,7 @@ h1{
     width: 690px;
     height: 300px;
     white-space: normal;
+    overflow: auto;
     /* display: inline-block; */
 }
 .otvetTask{
@@ -84,7 +85,6 @@ input{
     margin-right: auto;
 }
 #but{
-    /* display: inline-block; */
     width: 125px;
     height: 45px;
     white-space: nowrap;
@@ -93,7 +93,6 @@ input{
     border: 3px solid #919cda;
     background-color: #919cda;
     color: rgb(255, 255, 255);
-    /* vertical-align: middle; */
 }
 details{
     /* display: inline-block; */
@@ -132,8 +131,32 @@ details{
     text-align: center;
 }
 tr{
-    border: 2px solid black;
+    border: 2px solid #000000;
+    width: 50%;
 }
 th{
     border: 2px solid black;
+    /* width: 50%; */
+}
+table{
+    /* width: 50%; */
+    /* border: 2px solid black; */
+    border-collapse: collapse;
+    text-align: center;
+    text-align: center;
+    font-size: 80%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.Zag{
+    background-color: #dedede;
+    padding: 8px;
+}
+.Tab{
+    display: flex;
+    justify-content: center;
+}
+.con{
+    padding: 4px;
 }
