@@ -1,3 +1,6 @@
+function Ans(){
+ window.location.href = "index.html";
+}
 function checkSelect() {
     var select = document.getElementById("Result");
     var selectedValue = select.options[select.selectedIndex].value;
