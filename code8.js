@@ -13,9 +13,9 @@ function Task_8(){
     // // let c = a+"|"+b;
     // while (a === b) {
     // randomIndex2 = Math.floor(Math.random() * poet.length);
-    A = getRandomInt(1,40);
-    B = getRandomInt(1,40);
-    C = getRandomInt(1,A)*100;
+    A = getRandomInt(5,40);
+    B = getRandomInt(5,40);
+    C = getRandomInt(2,(A-1))*100;
     A = A * 100;
     B = B * 100;
     Condition = "В языке запросов поискового сервера для обозначения логической операции «ИЛИ» используется символ «|», а для обозначения логической операции «И»  — символ «&». <br> В таблице приведены запросы и количество найденных по ним страниц некоторого сегмента сети Интернет."
@@ -23,7 +23,7 @@ function Task_8(){
     // document.getElementById("1t").innerHTML = a;
     // document.getElementById("2t").innerHTML = b;
     // document.getElementById("3t").innerHTML = c;
-    document.getElementById("2").innerHTML = A;
+    document.getElementById("1").innerHTML = A;
     document.getElementById("2").innerHTML = B;
     document.getElementById("3").innerHTML = C;
     // document.getElementById("Otvet").innerHTML = A;
